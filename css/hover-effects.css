@@ -1,0 +1,687 @@
+#pr-square {
+  /*= Reset CSS 
+============= */
+  /*= Reset CSS End
+================= *
+
+/* effect-1 css */
+  /* effect-1 css end */
+  /* effect-2 css */
+  /* effect-2 css end */
+  /* effect-3 css */
+  /* effect-3 css end */
+  /* effect-4 css */
+  /* effect-4 css end */
+  /* effect-5 css */
+  /* effect-5 css end */
+  /* effect-6 css */
+  /* effect-6 css end */
+  /* effect-7 css */
+  /* effect-7 css end */
+  /* effect-8 css */
+  /* effect-8 css end */
+  /*= Media Screen CSS
+==================== */
+  /*= Media Screen CSS End
+======================== */
+}
+#pr-square img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+#pr-square .full-length {
+  width: 100%;
+  float: left;
+  padding-bottom: 80px;
+}
+#pr-square ul {
+  margin: 0 -1.5%;
+}
+#pr-square li {
+  float: left;
+  width: 31.33%;
+  margin: 10px 1%;
+  list-style: none;
+}
+#pr-square h3 {
+  font-size: 20px;
+  margin: 5px 0 10px;
+}
+#pr-square p {
+  font-weight: 300;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+#pr-square .btn {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  border: 2px solid #4d92d9;
+  background-color: #4d92d9;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#pr-square .btn:hover {
+  background-color: transparent;
+  color: #4d92d9;
+  transition: 0.4s;
+}
+#pr-square .text-desc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  height: 100%;
+  opacity: 0;
+  width: 100%;
+  padding: 20px;
+}
+#pr-square .port-1 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+}
+#pr-square .port-1 .text-desc {
+  opacity: 0.9;
+  top: -100%;
+  transition: 0.5s;
+  color: #000;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-1 img {
+  transition: 0.5s;
+}
+#pr-square .port-1:hover img {
+  transform: scale(1.2);
+}
+#pr-square .port-1.effect-1:hover .text-desc {
+  top: 0;
+}
+#pr-square .port-1.effect-2 .text-desc {
+  top: auto;
+  bottom: -100%;
+}
+#pr-square .port-1.effect-2:hover .text-desc {
+  bottom: 0;
+}
+#pr-square .port-1.effect-3 .text-desc {
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#pr-square .port-1.effect-3:hover .text-desc {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-2 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  perspective: 800px;
+}
+#pr-square .port-2 .text-desc {
+  z-index: -1;
+  transition: 0.6s;
+}
+#pr-square .port-2 .image-box {
+  transition: 0.4s;
+}
+#pr-square .port-2:hover .image-box {
+  transform: rotateX(80deg);
+  transform-origin: center bottom 0;
+  transition: 0.4s;
+}
+#pr-square .port-2.effect-1:hover .text-desc {
+  opacity: 1;
+}
+#pr-square .port-2.effect-2 .text-desc {
+  opacity: 1;
+  top: -100%;
+}
+#pr-square .port-2.effect-2:hover .text-desc {
+  top: 0;
+}
+#pr-square .port-2.effect-3 .text-desc {
+  opacity: 1;
+  top: auto;
+  bottom: -100%;
+}
+#pr-square .port-2.effect-3:hover .text-desc {
+  bottom: 0;
+}
+#pr-square .port-3 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  perspective: 500px;
+}
+#pr-square .port-3 img {
+  transition: 0.5s;
+}
+#pr-square .port-3.effect-1 .text-desc {
+  z-index: -1;
+  transition: 0.5s;
+  transform: rotateX(80deg);
+  transform-origin: center top 0;
+  padding: 45px 20px 20px;
+  opacity: 1;
+}
+#pr-square .port-3.effect-1:hover .text-desc {
+  transform: none;
+}
+#pr-square .port-3.effect-1:hover img {
+  opacity: 0;
+  transform: scale(1.2);
+}
+#pr-square .port-3.effect-2 .text-desc {
+  z-index: -1;
+  transition: 0.5s;
+  transform: rotateX(80deg);
+  transform-origin: center bottom 0;
+  top: auto;
+  bottom: 0;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-3.effect-2:hover .text-desc {
+  transform: none;
+  opacity: 1;
+}
+#pr-square .port-3.effect-2:hover img {
+  transform: translateY(-100%);
+}
+#pr-square .port-3.effect-3 .text-desc {
+  z-index: -1;
+  transition: 0.5s;
+  transform: rotateX(80deg);
+  transform-origin: center top 0;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-3.effect-3:hover .text-desc {
+  transform: none;
+  opacity: 1;
+}
+#pr-square .port-3.effect-3:hover img {
+  transform: translateY(100%);
+}
+#pr-square .port-4 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  z-index: 10;
+}
+#pr-square .port-4.effect-1 img {
+  transition: 0.5s;
+  transform: rotateY(360deg) scale(1, 1);
+}
+#pr-square .port-4.effect-1 .text-desc {
+  transform: rotateY(0deg) scale(0, 0);
+  transition: 0.5s;
+  opacity: 0;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-4.effect-1:hover .text-desc {
+  transform: rotateY(360deg) scale(1, 1);
+  opacity: 1;
+}
+#pr-square .port-4.effect-1:hover img {
+  transform: rotateY(0deg) scale(0, 0);
+}
+#pr-square .port-4.effect-2 {
+  z-index: 12;
+}
+#pr-square .port-4.effect-2 img {
+  transition: 0.5s;
+  transform: rotateX(360deg) scale(1, 1);
+}
+#pr-square .port-4.effect-2 .text-desc {
+  transform: rotateX(0deg) scale(0, 0);
+  transition: 0.5s;
+  opacity: 0;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-4.effect-2:hover .text-desc {
+  transform: rotateX(360deg) scale(1, 1);
+  opacity: 1;
+}
+#pr-square .port-4.effect-2:hover img {
+  transform: rotateX(0deg) scale(0, 0);
+}
+#pr-square .port-4.effect-3 img {
+  transition: 0.5s;
+  transform: rotate(360deg) scale(1, 1);
+}
+#pr-square .port-4.effect-3 .text-desc {
+  transform: rotate(0deg) scale(0, 0);
+  transition: 0.5s;
+  opacity: 0;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-4.effect-3:hover .text-desc {
+  transform: rotate(360deg) scale(1, 1);
+  opacity: 1;
+}
+#pr-square .port-4.effect-3:hover img {
+  transform: rotate(0deg) scale(0, 0);
+}
+#pr-square .port-5 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  overflow: visible;
+}
+#pr-square .port-5.effect-1 {
+  z-index: 9;
+}
+#pr-square .port-5.effect-1 img {
+  transition: 0.5s;
+}
+#pr-square .port-5.effect-1:hover img {
+  transform: scale(0.5) translateX(-100%);
+  position: relative;
+  z-index: 9;
+  border: 6px solid rgba(255, 255, 255, 0.9);
+}
+#pr-square .port-5.effect-1 .text-desc {
+  transform: translateX(100%);
+  opacity: 0;
+  padding: 40px 20px 20px 90px;
+  transition: 0.5s;
+}
+#pr-square .port-5.effect-1:hover .text-desc {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#pr-square .port-5.effect-2 {
+  z-index: 10;
+}
+#pr-square .port-5.effect-2 img {
+  transition: 0.5s;
+  transform: none);
+}
+#pr-square .port-5.effect-2:hover img {
+  transform: scale(0.5) translateY(100%);
+  position: relative;
+  z-index: 9;
+  border: 6px solid rgba(255, 255, 255, 0.9);
+}
+#pr-square .port-5.effect-2 .text-desc {
+  transform: translateY(-100%);
+  opacity: 0;
+  padding: 20px;
+  transition: 0.5s;
+}
+#pr-square .port-5.effect-2:hover .text-desc {
+  transform: translateY(0px);
+  opacity: 1;
+}
+#pr-square .port-5.effect-3 img {
+  transition: 0.5s;
+}
+#pr-square .port-5.effect-3:hover img {
+  transform: scale(0.5) translateX(100%);
+  position: relative;
+  z-index: 9;
+  border: 6px solid rgba(255, 255, 255, 0.9);
+}
+#pr-square .port-5.effect-3 .text-desc {
+  transform: translateX(-100%);
+  opacity: 0;
+  padding: 40px 90px 20px 20px;
+  transition: 0.5s;
+}
+#pr-square .port-5.effect-3:hover .text-desc {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#pr-square .port-6 {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  overflow: visible;
+}
+#pr-square .port-6.effect-1 {
+  z-index: 8;
+}
+#pr-square .port-6.effect-1 img {
+  transition: 0.5s;
+}
+#pr-square .port-6.effect-1:hover img {
+  transform: scale(0.3) translateY(110%);
+  position: relative;
+  z-index: 9;
+}
+#pr-square .port-6.effect-1 .text-desc {
+  transform: translateY(-100%);
+  opacity: 0;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+#pr-square .port-6.effect-1:hover .text-desc {
+  transform: translateY(0px);
+  opacity: 1;
+}
+#pr-square .port-6.effect-2 {
+  z-index: 7;
+}
+#pr-square .port-6.effect-2 img {
+  transition: 0.6s;
+  z-index: 1;
+}
+#pr-square .port-6.effect-2:hover img {
+  transform: scale(0.3) translateX(110%);
+  position: relative;
+  z-index: 9;
+}
+#pr-square .port-6.effect-2 .text-desc {
+  transform: translateX(-100%);
+  opacity: 0;
+  padding: 40px 120px 20px 20px;
+  transition: 0.6s;
+}
+#pr-square .port-6.effect-2:hover .text-desc {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#pr-square .port-6.effect-3 img {
+  transition: 0.5s;
+}
+#pr-square .port-6.effect-3:hover img {
+  transform: scale(0.3) translateY(-110%);
+  position: relative;
+  z-index: 9;
+}
+#pr-square .port-6.effect-3 .text-desc {
+  transform: translateY(100%);
+  opacity: 0;
+  padding: 85px 20px 10px;
+  transition: 0.5s;
+}
+#pr-square .port-6.effect-3:hover .text-desc {
+  transform: translateY(0px);
+  opacity: 1;
+}
+#pr-square .port-7 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+#pr-square .port-7 .text-desc {
+  opacity: 0;
+  transition: 0.5s;
+  color: #000;
+}
+#pr-square .port-7.effect-1 img {
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+#pr-square .port-7.effect-1:hover img {
+  left: 50%;
+}
+#pr-square .port-7.effect-1 .text-desc {
+  transform: perspective(600px) rotateY(90deg);
+  transform-origin: left center 0;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 18px 10px;
+}
+#pr-square .port-7.effect-1:hover .text-desc {
+  opacity: 1;
+  transform: perspective(600px) rotateY(0deg);
+  z-index: 99;
+}
+#pr-square .port-7.effect-2 img {
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+#pr-square .port-7.effect-2:hover img {
+  top: 50%;
+}
+#pr-square .port-7.effect-2 .text-desc {
+  transform: perspective(600px) rotateX(90deg);
+  transform-origin: top center 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  padding: 5px 10px;
+}
+#pr-square .port-7.effect-2:hover .text-desc {
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+  z-index: 99;
+}
+#pr-square .port-7.effect-3 img {
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  right: 0;
+}
+#pr-square .port-7.effect-3:hover img {
+  right: 50%;
+}
+#pr-square .port-7.effect-3 .text-desc {
+  transform: perspective(600px) rotateY(-90deg);
+  transform-origin: right center 0;
+  width: 50%;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  padding: 18px 10px;
+}
+#pr-square .port-7.effect-3:hover .text-desc {
+  opacity: 1;
+  transform: perspective(600px) rotateY(0deg);
+  z-index: 99;
+}
+#pr-square .port-8 {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  border: 4px solid rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+#pr-square .port-8 .text-desc {
+  opacity: 0;
+  transition: 0.5s;
+  color: #000;
+  padding: 45px 20px 20px;
+}
+#pr-square .port-8.effect-1 img {
+  transition: 0.5s;
+}
+#pr-square .port-8.effect-1:hover img {
+  transform: scale(1.1);
+}
+#pr-square .port-8.effect-1 .text-desc {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  backface-visibility: hidden;
+}
+#pr-square .port-8.effect-1:hover .text-desc {
+  opacity: 1;
+  transform: scale(1);
+  border-radius: 20%;
+}
+#pr-square .port-8.effect-2 img {
+  transition: 0.5s;
+}
+#pr-square .port-8.effect-2:hover img {
+  transform: scale(1.1);
+}
+#pr-square .port-8.effect-2 .text-desc {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  backface-visibility: hidden;
+}
+#pr-square .port-8.effect-2:hover .text-desc {
+  opacity: 1;
+  transform: scale(1);
+  border-radius: 50% 0 50% 0;
+}
+#pr-square .port-8.effect-2 img {
+  transition: 0.5s;
+}
+#pr-square .port-8.effect-2:hover img {
+  transform: scale(1.1);
+}
+#pr-square .port-8.effect-2 .text-desc {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  backface-visibility: hidden;
+}
+#pr-square .port-8.effect-2:hover .text-desc {
+  opacity: 1;
+  transform: scale(1);
+  border-radius: 50% 0 50% 0;
+}
+#pr-square .port-8.effect-3 img {
+  transition: 0.5s;
+}
+#pr-square .port-8.effect-3:hover img {
+  transform: scale(1.1);
+}
+#pr-square .port-8.effect-3 .text-desc {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  backface-visibility: hidden;
+  background: none;
+  padding: 40px 70px 20px;
+}
+#pr-square .port-8.effect-3 .text-desc:before,
+#pr-square .port-8.effect-3 .text-desc:after {
+  background-color: #fff;
+  border-radius: 50% 50% 0 0;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: rotate(-50deg);
+  transform-origin: 0 100% 0;
+  width: 50%;
+  z-index: -1;
+}
+#pr-square .port-8.effect-3 .text-desc:after {
+  left: 0;
+  transform: rotate(50deg);
+  transform-origin: 100% 100% 0;
+}
+#pr-square .port-8.effect-3:hover .text-desc {
+  opacity: 1;
+  transform: scale(1);
+}
+@media only screen and (max-width: 1090px) {
+  #pr-square ul {
+    width: 340px;
+    margin: 0 auto;
+  }
+  #pr-square li {
+    width: 100%;
+    margin: 20px 0;
+  }
+  #pr-square .port-5.effect-1 {
+    z-index: 19;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #pr-square ul {
+    width: 300px;
+  }
+  #pr-square .port-1 .text-desc,
+  #pr-square .port-1.effect-3:hover .text-desc,
+  #pr-square .port-3.effect-1 .text-desc,
+  #pr-square .port-3.effect-3 .text-desc,
+  #pr-square .port-4.effect-1 .text-desc,
+  #pr-square .port-4.effect-2 .text-desc,
+  #pr-square .port-4.effect-3 .text-desc,
+  #pr-square .port-8 .text-desc {
+    padding: 20px;
+  }
+  #pr-square .text-desc {
+    padding: 7px;
+  }
+  #pr-square .port-5.effect-1 .text-desc {
+    padding: 13px 20px 20px 90px;
+  }
+  #pr-square .port-5.effect-2 .text-desc {
+    padding: 10px;
+  }
+  #pr-square .port-5.effect-3 .text-desc {
+    padding: 16px 90px 20px 20px;
+  }
+  #pr-square .port-6.effect-1 .text-desc .btn,
+  #pr-square .port-6.effect-2 .text-desc .btn,
+  #pr-square .port-6.effect-3 .text-desc .btn,
+  #pr-square .port-7.effect-1 .text-desc .btn,
+  #pr-square .port-7.effect-2 .text-desc .btn,
+  #pr-square .port-7.effect-3 .text-desc .btn,
+  #pr-square .port-8.effect-3 .text-desc .btn {
+    display: none;
+  }
+  #pr-square .port-6.effect-2 .text-desc {
+    padding: 20px 120px 20px 20px;
+  }
+  #pr-square .port-6.effect-3 .text-desc {
+    padding: 75px 20px 10px;
+  }
+  #pr-square .port-7.effect-1 .text-desc {
+    padding: 12px 10px;
+  }
+  #pr-square .port-8.effect-3 .text-desc {
+    padding: 28px 70px 20px;
+  }
+}

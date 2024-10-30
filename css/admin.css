@@ -1,0 +1,24 @@
+.enable_scroll_animation {
+	pointer-events: none!important
+}
+.scroll_effects {
+	pointer-events: none!important
+}
+.scroll_speed {
+	pointer-events: none!important
+}
+.vc_wrapper-param-type-colorpicker[data-vc-shortcode-param-name="thumb_heading"]{
+	pointer-events: none!important
+}
+.vc_wrapper-param-type-colorpicker[data-vc-shortcode-param-name="thumb_des"]{
+	pointer-events: none!important
+}
+.vc_wrapper-param-type-colorpicker[data-vc-shortcode-param-name="thumb_bg"]{
+	pointer-events: none!important
+}
+.vc_wrapper-param-type-textfield[data-vc-shortcode-param-name="thumb_width"]{
+	pointer-events: none!important
+}
+.vc_wrapper-param-type-textfield[data-vc-shortcode-param-name="thumb_height"]{
+	pointer-events: none!important
+}
